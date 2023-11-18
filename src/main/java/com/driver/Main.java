@@ -1,6 +1,5 @@
 package com.driver;
-  // Task 1: Create a class A with a method named meth
-class A {
+ class A {
     public String meth() {
         return "Invoking method from class A";
     }
@@ -23,6 +22,4 @@ public class Main {
         // Task 5: Call the overridden method from obj of class B
         System.out.println(objB.meth());
     }
-}
-
 }
